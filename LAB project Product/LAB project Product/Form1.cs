@@ -19,7 +19,7 @@ namespace LAB_project_Product
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            product p = new product();
+            Product p = new Product();
             p.number = int.Parse(txt_number.Text);
             p.date = dateTimePicker1.Text;
             p.inventory = double.Parse(txt_inventory.Text);
@@ -36,18 +36,5 @@ namespace LAB_project_Product
 
         }
     }
-    public class product
-    {
-        public int number { get; set; }
-        public double inventory { get; set; }
-        public string object_name { get; set; }
-        public string date { get; set; }
-        public double count { get; set; }
-        public double price { get; set; }
-
-        public void save()
-        {
-            MessageBox.Show(this.object_name+" has been added successfully");
-        }
-    }
+    
 }
