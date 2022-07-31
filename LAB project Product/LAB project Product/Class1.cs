@@ -9,6 +9,7 @@ namespace LAB_project_Product
 {
     internal class Product
     {
+       
         public int number { get; set; }
         public double inventory { get; set; }
         public string object_name { get; set; }
@@ -16,9 +17,15 @@ namespace LAB_project_Product
         public double count { get; set; }
         public double price { get; set; }
 
+        static List<Product> p = new List<Product>();
         public void save()
         {
-            MessageBox.Show(this.object_name + " has been added successfully");
+            MessageBox.Show(this.object_name + " has been added successfully!!");
+            p.Add(this);
+        }
+        public static List<Product> getallproduct()
+        {
+            return p ;
         }
     }
 }
