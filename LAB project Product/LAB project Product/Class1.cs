@@ -16,6 +16,8 @@ namespace LAB_project_Product
         public string date { get; set; }
         public double count { get; set; }
         public double price { get; set; }
+        public bool isavail { get; set; }   
+        public string gender  { get; set; }  
 
         static List<Product> p = new List<Product>();
         public void save()

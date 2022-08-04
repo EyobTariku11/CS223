@@ -16,14 +16,41 @@ namespace LAB_project_Product
 //use one or two regular expression at list in two field
     public partial class Form1 : Form
     {
-        public Form1()
+        public Form1(String name)
         {
             InitializeComponent();
+            label7.Text=name;
         }
-
+        Product p = new Product();
         private void btn_add_Click(object sender, EventArgs e)
         {
-            Product p = new Product();
+            
+            
+         var item = groupBox1.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
+         MessageBox.Show(item.Name);
+            
+            if (Female.Checked)
+            {
+                p.gender = "Female";
+            }
+            else if(Male.Checked) 
+            {
+                p.gender = "Male";
+            }
+            else
+            {
+                p.gender = "Other";
+            }
+            if (chk_avail.Checked)
+            {
+                MessageBox.Show("Item is available");
+                p.isavail = chk_avail.Checked;
+            }
+            else
+            {
+                MessageBox.Show("Item is not available");
+            }
+          
             Boolean x = false;
 
             try
@@ -42,7 +69,7 @@ namespace LAB_project_Product
            
             try
             {
-                errorprovider1.Clear();
+                errorProvider2.Clear();
                 p.inventory = double.Parse(txt_inventory.Text);
                 
             }
@@ -50,7 +77,7 @@ namespace LAB_project_Product
             {
                
                 x=true;
-                errorprovider1.SetError(txt_inventory, "Inventory required");
+                errorProvider2.SetError(txt_inventory, "Inventory required");
             }
             //
            
@@ -111,6 +138,8 @@ namespace LAB_project_Product
             txt_objectname.Clear();
             txt_price.Clear();
         }
+
+       
     }
     
 }
