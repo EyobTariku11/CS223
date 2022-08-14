@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace LAB_project_Product
 {
-    internal class Product
+   public class Product
     {
        
         public int number { get; set; }
@@ -29,5 +29,14 @@ namespace LAB_project_Product
         {
             return p ;
         }
+       // public static Product Searchproduct(String name)
+        //{
+        //    return List.FindAll(Product => Product.object_name == name);
+        //}
+        /*public static List<Product> GetAllproduct(String name)
+        {
+            return List.FindAll(Product => Product.object_name == name);
+        }
+        */
     }
 }

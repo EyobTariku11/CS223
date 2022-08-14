@@ -10,3 +10,6 @@ C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Pr
 C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.exe
 C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.pdb
 C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Form2.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Main.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Search.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.View.resources

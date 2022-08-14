@@ -35,11 +35,12 @@ namespace LAB_project_Product
             
             if (textBox1.Text == username && textBox2.Text == password)
             {
+                Main Form1 = new Main(username);
+                this.Hide();
+                Form1.Show();
                 errorProvider1.Clear();
                 errorProvider2.Clear();
-                Form1 form = new Form1(username);
-                form.Show();
-
+                
             }
             else
             {
@@ -54,6 +55,11 @@ namespace LAB_project_Product
             textBox1.Clear();
             textBox2.Clear();
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

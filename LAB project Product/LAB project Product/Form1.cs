@@ -4,16 +4,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text.RegularExpressions;//imported
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LAB_project_Product
-{// error provider helps us to display the error on the form.
-// regular expression ??
-// we need to have regex class
-//@"    ",$"    " @ charaacter doesnt see the\n as a newline but like a string
-//use one or two regular expression at list in two field
+{
     public partial class Form1 : Form
     {
         public Form1(String name)
