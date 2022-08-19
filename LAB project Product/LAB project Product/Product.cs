@@ -19,24 +19,24 @@ namespace LAB_project_Product
         public bool isavail { get; set; }   
         public string gender  { get; set; }  
 
-        static List<Product> p = new List<Product>();
+        public static List<Product> p = new List<Product>();
         public void save()
         {
             MessageBox.Show(this.object_name + " has been added successfully!!");
             p.Add(this);
         }
-        public static List<Product> getallproduct()
+        public static List<Product> getproduct()
         {
             return p ;
         }
-       // public static Product Searchproduct(String name)
-        //{
-        //    return List.FindAll(Product => Product.object_name == name);
-        //}
-        /*public static List<Product> GetAllproduct(String name)
+
+        public static List<Product> GetAllproduct(String name)
         {
-            return List.FindAll(Product => Product.object_name == name);
+            List<Product> p1 = new List<Product>();
+            foreach (Product p in p)
+                p1.Add(p);
+            return p1;
         }
-        */
+        
     }
 }

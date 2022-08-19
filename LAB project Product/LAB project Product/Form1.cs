@@ -22,10 +22,8 @@ namespace LAB_project_Product
         {
             
             
-         var item = groupBox1.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
-         MessageBox.Show(item.Name);
-            
-            if (Female.Checked)
+         
+          if (Female.Checked)
             {
                 p.gender = "Female";
             }
@@ -105,16 +103,14 @@ namespace LAB_project_Product
             if (string.IsNullOrEmpty(txt_objectname.Text))
             {
                 errorprovider1.SetError(txt_objectname, "Object name is required");
-               
+
             }
             else
             {
                 errorprovider1.Clear();
-              
+
                 p.date = dateTimePicker1.Text;
                 p.save();
-                datagridview1.DataSource = null;
-                datagridview1.DataSource = Product.getallproduct();
             }
 
         }

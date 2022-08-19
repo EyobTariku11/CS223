@@ -24,7 +24,27 @@ namespace LAB_project_Product
                 errorProvider1.SetError(textBox1, "empty text box");
 
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = Product.GetAllproduct(textBox1.Text);
+            List<Product> text = Product.GetAllproduct(textBox1.Text);
+            if (text.Count > 0)
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = text;
+            }
+            else
+            {
+                MessageBox.Show(textBox1.Text+" doesn't exist!!");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
         }
     }
 }

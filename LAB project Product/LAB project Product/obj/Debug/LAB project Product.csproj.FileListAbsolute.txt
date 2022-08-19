@@ -13,3 +13,19 @@ C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Pr
 C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Main.resources
 C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Search.resources
 C:\Users\user\OneDrive\Documents\GitHub\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.View.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\bin\Debug\LAB project Product.exe.config
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\bin\Debug\LAB project Product.exe
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\bin\Debug\LAB project Product.pdb
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Form1.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Form2.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Main.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Properties.Resources.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Search.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.View.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.csproj.GenerateResource.cache
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.exe
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.pdb
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Product_card.resources

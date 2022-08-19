@@ -17,12 +17,25 @@ namespace LAB_project_Product
         {
             InitializeComponent();
         }
+        
+        private void View_Load(object sender, EventArgs e)
+        {
+            if (Product.p.Count < 1)
+                MessageBox.Show("Products do not exist.");
 
+            flowLayoutPanel1.Controls.Clear();
+            foreach(var item in Product.getproduct())
+            {
+                Product_card p = new Product_card();
+                p.product = item.number.ToString();
+                p.product1 = item.object_name;
+                p.product2 = item.inventory.ToString();
+                p.product3 = item.count.ToString();
+                p.product4 = item.price.ToString();
+                flowLayoutPanel1.Controls.Add(p);
+            }
 
-        private void button1_Click(object sender, EventArgs e)
-        {     
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = Product.getallproduct();
+        
         }
     }
 }

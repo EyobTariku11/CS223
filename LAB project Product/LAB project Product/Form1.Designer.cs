@@ -43,7 +43,6 @@
             this.txt_count = new System.Windows.Forms.TextBox();
             this.txt_price = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.datagridview1 = new System.Windows.Forms.DataGridView();
             this.errorprovider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.btn_clear = new System.Windows.Forms.Button();
             this.chk_avail = new System.Windows.Forms.CheckBox();
@@ -54,7 +53,6 @@
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.datagridview1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorprovider1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
@@ -184,17 +182,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 13;
             // 
-            // datagridview1
-            // 
-            this.datagridview1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.datagridview1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagridview1.Location = new System.Drawing.Point(1, 361);
-            this.datagridview1.Name = "datagridview1";
-            this.datagridview1.RowHeadersWidth = 51;
-            this.datagridview1.RowTemplate.Height = 24;
-            this.datagridview1.Size = new System.Drawing.Size(1053, 156);
-            this.datagridview1.TabIndex = 14;
-            // 
             // errorprovider1
             // 
             this.errorprovider1.ContainerControl = this;
@@ -302,7 +289,6 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.chk_avail);
             this.Controls.Add(this.btn_clear);
-            this.Controls.Add(this.datagridview1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.txt_price);
             this.Controls.Add(this.txt_count);
@@ -317,9 +303,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_add);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Product";
-            ((System.ComponentModel.ISupportInitialize)(this.datagridview1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorprovider1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -345,7 +332,6 @@
         private System.Windows.Forms.TextBox txt_count;
         private System.Windows.Forms.TextBox txt_price;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DataGridView datagridview1;
         private System.Windows.Forms.ErrorProvider errorprovider1;
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.CheckBox chk_avail;

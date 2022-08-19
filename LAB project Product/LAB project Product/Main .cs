@@ -27,9 +27,9 @@ namespace LAB_project_Product
             }
 
            
-            Form1 form = new Form1(name);
-            form.MdiParent = this;
-            form.Show();
+            Form1 form1 = new Form1(name);
+            form1.MdiParent = this;
+            form1.Show();
 
         }
 
@@ -57,6 +57,19 @@ namespace LAB_project_Product
             s.MdiParent = this;
             s.Show();
 
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            addToolStripMenuItem_Click(sender, e);
+            addToolStripMenuItem.Enabled = true;
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Show();
         }
     }
 }
