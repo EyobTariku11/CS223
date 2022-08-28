@@ -53,6 +53,7 @@
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btn_check = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorprovider1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
@@ -278,12 +279,24 @@
             this.label8.TabIndex = 22;
             this.label8.Text = "Logged in as:";
             // 
+            // btn_check
+            // 
+            this.btn_check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_check.Location = new System.Drawing.Point(929, 312);
+            this.btn_check.Name = "btn_check";
+            this.btn_check.Size = new System.Drawing.Size(109, 30);
+            this.btn_check.TabIndex = 23;
+            this.btn_check.Text = "Check Con";
+            this.btn_check.UseVisualStyleBackColor = true;
+            this.btn_check.Click += new System.EventHandler(this.btn_check_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(1057, 553);
+            this.Controls.Add(this.btn_check);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.groupBox1);
@@ -342,6 +355,7 @@
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btn_check;
     }
 }
 

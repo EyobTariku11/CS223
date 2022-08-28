@@ -52,6 +52,7 @@ namespace LAB_project_Product
             {
                 ActiveMdiChild.Close();
             }
+            this.Close();
 
             Search s = new Search();
             s.MdiParent = this;
@@ -70,6 +71,14 @@ namespace LAB_project_Product
             this.Close();
             Form2 form2 = new Form2();
             form2.Show();
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            delete d = new delete();
+            d.Show();
+            
         }
     }
 }

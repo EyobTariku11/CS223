@@ -17,17 +17,24 @@ namespace LAB_project_Product
         public double count { get; set; }
         public double price { get; set; }
         public bool isavail { get; set; }   
-        public string gender  { get; set; }  
+        public char gender  { get; set; }  
 
         public static List<Product> p = new List<Product>();
         public void save()
         {
             MessageBox.Show(this.object_name + " has been added successfully!!");
             p.Add(this);
+            Sql_conn sql_Conn = new Sql_conn();
+            sql_Conn.insertpproduct(this);
         }
         public static List<Product> getproduct()
+
         {
-            return p ;
+            Sql_conn sql_Conn = new Sql_conn(); 
+            List<Product> temp = new List<Product>();
+            sql_Conn.selectallpproduct(temp);
+            return temp;
+
         }
 
         public static List<Product> GetAllproduct(String name)

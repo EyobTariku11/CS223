@@ -25,15 +25,15 @@ namespace LAB_project_Product
          
           if (Female.Checked)
             {
-                p.gender = "Female";
+                p.gender = 'F';
             }
             else if(Male.Checked) 
             {
-                p.gender = "Male";
+                p.gender = 'M' ;
             }
             else
             {
-                p.gender = "Other";
+                p.gender = 'n';
             }
             if (chk_avail.Checked)
             {
@@ -117,8 +117,11 @@ namespace LAB_project_Product
 
         private void btn_cancel_Click(object sender, EventArgs e)
         {
+            Main m = new Main("");
+           
             this.Close();
-            
+            m.Close();
+
 
         }
 
@@ -129,6 +132,13 @@ namespace LAB_project_Product
             txt_inventory.Clear();
             txt_objectname.Clear();
             txt_price.Clear();
+        }
+
+        private void btn_check_Click(object sender, EventArgs e)
+        {
+           
+            Sql_conn.connection();
+            
         }
 
        

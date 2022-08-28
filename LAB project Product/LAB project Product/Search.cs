@@ -38,7 +38,10 @@ namespace LAB_project_Product
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
             this.Close();
+            Main m = new Main("");
+            m.Show();
 
         }
 

@@ -29,3 +29,4 @@ C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB proj
 C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.exe
 C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB project Product.pdb
 C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.Product_card.resources
+C:\Users\user\OneDrive\Documents\GitHub\CS223\CS223\LAB project Product\LAB project Product\obj\Debug\LAB_project_Product.delete.resources

@@ -32,10 +32,36 @@ namespace LAB_project_Product
                 p.product2 = item.inventory.ToString();
                 p.product3 = item.count.ToString();
                 p.product4 = item.price.ToString();
+                p.Click += card_click;
+                //p.Click += (object s, EventArgs e1) =>
+                //{
+
+                //};
                 flowLayoutPanel1.Controls.Add(p);
             }
 
         
         }
+        private void card_click(object sender, EventArgs e)
+        {
+            MessageBox.Show("card clicked");
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
+                   
 }
