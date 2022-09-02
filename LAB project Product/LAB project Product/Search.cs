@@ -14,6 +14,7 @@ namespace LAB_project_Product
     {
         public Search()
         {
+            
             InitializeComponent();
         }
 
@@ -24,7 +25,7 @@ namespace LAB_project_Product
                 errorProvider1.SetError(textBox1, "empty text box");
 
             dataGridView1.DataSource = null;
-            List<Product> text = Product.GetAllproduct(textBox1.Text);
+            List<Product> text = Product.getproduct(textBox1.Text);
             if (text.Count > 0)
             {
                 dataGridView1.DataSource = null;

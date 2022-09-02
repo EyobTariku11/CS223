@@ -55,7 +55,7 @@ namespace LAB_project_Product
             this.Close();
 
             Search s = new Search();
-            s.MdiParent = this;
+           
             s.Show();
 
         }
@@ -79,6 +79,13 @@ namespace LAB_project_Product
             delete d = new delete();
             d.Show();
             
+        }
+
+        private void updateToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            update d = new update();
+            d.Show();
         }
     }
 }

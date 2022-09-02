@@ -13,9 +13,10 @@ namespace LAB_project_Product
     public partial class Form2 : Form
     {
 
-       
         public Form2()
         {
+            Product.p.Clear();
+            Sql_conn.selectallpproduct(Product.p);
             InitializeComponent();
         }
         public String username = "admin";

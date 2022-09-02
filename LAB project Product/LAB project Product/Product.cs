@@ -27,17 +27,16 @@ namespace LAB_project_Product
             Sql_conn sql_Conn = new Sql_conn();
             sql_Conn.insertpproduct(this);
         }
-        public static List<Product> getproduct()
-
+        public static List<Product> getproduct(String name)
         {
-            Sql_conn sql_Conn = new Sql_conn(); 
+            
             List<Product> temp = new List<Product>();
-            sql_Conn.selectallpproduct(temp);
+            Sql_conn.searchStudent(temp,name);
             return temp;
 
         }
 
-        public static List<Product> GetAllproduct(String name)
+        public static List<Product> GetAllproduct()
         {
             List<Product> p1 = new List<Product>();
             foreach (Product p in p)

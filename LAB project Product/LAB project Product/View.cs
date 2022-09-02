@@ -24,7 +24,7 @@ namespace LAB_project_Product
                 MessageBox.Show("Products do not exist.");
 
             flowLayoutPanel1.Controls.Clear();
-            foreach(var item in Product.getproduct())
+            foreach(var item in Product.GetAllproduct())
             {
                 Product_card p = new Product_card();
                 p.product = item.number.ToString();

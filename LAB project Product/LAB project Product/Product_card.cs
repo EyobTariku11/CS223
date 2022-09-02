@@ -25,7 +25,7 @@ namespace LAB_project_Product
         public String product1
         {
             get { return _product1; }
-            set { _product1 = value; label2.Text = value; }
+            set { _product1 = value; label3.Text = value; }
         }
 
         private String _product2;
@@ -33,7 +33,7 @@ namespace LAB_project_Product
         public String product2
         {
             get { return _product2; }
-            set { _product2 = value; label3.Text = value; }
+            set { _product2 = value; label2.Text = value; }
         }
 
         private String _product3;
